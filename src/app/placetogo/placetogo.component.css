@@ -1,0 +1,50 @@
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  

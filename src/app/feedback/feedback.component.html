@@ -1,0 +1,22 @@
+
+    <legend style="text-align: center;"><h1>Enquiry Form</h1></legend>
+    <fieldset >
+    <form [formGroup]="myform" (ngSubmit)="showData()">
+        <label>Name</label>
+        <input type="text" formControlName="name" placeholder="Name is required" required/>
+        
+        <br/><br/>
+
+        <label>Email</label>
+        <input type="email" formControlName="email" placeholder="Email is mandatory" required/>
+              
+        <label>Comment</label>
+        <textarea formControlName="comment"></textarea>
+        <span [ngClass]="'error'" *ngIf="comment?.errors?.['required']" class="error">Comment is mandatory</span>
+
+        <input type="submit"/><input type="reset"/>
+        
+    </form>
+</fieldset>
+
+

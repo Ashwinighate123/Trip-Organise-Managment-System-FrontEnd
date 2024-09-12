@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="column" *ngFor="let trip of trips">
+      <div class="card">
+        <img [src]="trip.imageSrc" width="485" height="324">
+        <div class="container">
+          <h2>{{ trip.title }}</h2>
+          <p class="title">{{ trip.description }}</p>
+          <p>{{ trip.description }}</p>
+          <div><p><button class="button" (click)="redirectToNextPage(trip.routeLink)">Show More</button></p></div>
+        </div>
+      </div>
+    </div>
+</div>
+  
