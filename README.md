@@ -104,6 +104,11 @@ TO RUN THE PROJECT COMMAND
 Run the Program 
 http//localhost/4300
 
+![project1](https://github.com/user-attachments/assets/bb7767bd-ca31-40ed-b45b-395c090800fd)
+
+![2](https://github.com/user-attachments/assets/439c61c4-4c53-47ac-9fff-bdd46ae5d966)
+
+
 Information
 -----
 The Trip Organize Management System is designed to help users plan and manage their trips easily. It provides a user-friendly interface and includes key features such as Home, About, Feedback, Login, Logout, Booking, Places to Go, and Things to Do. Here’s an explanation of the project:
@@ -118,11 +123,18 @@ Users must first register by providing their email, password, and username. Prop
 After registration, users can log in. If someone tries to log in without registering, they will be prompted to register first.
 Once logged in, the home page welcomes the user by displaying "Welcome [username]" and adds a Logout button to the navigation bar.
 
+![1](https://github.com/user-attachments/assets/4dad7659-1b2d-4c36-ac08-fccc13e93c16)
+![2](https://github.com/user-attachments/assets/81521680-269a-435a-aa5c-64f2d5a8f93c)
+
+![3](https://github.com/user-attachments/assets/f7008816-c33f-422d-8cf9-b25bf2d25569)
+
+
 Home Page:
 -----
 
 The home page provides all the necessary information related to the system, with navigation options for various sections like "Places to Go" and "Things to Do."
 There is also a Contact page for users to get in touch, and a Feedback form to provide reviews or suggestions.
+
 
 Places to Go:
 -----
@@ -132,10 +144,26 @@ Things to Do:
 
 This section displays activities like Birthday Parties and Maternity Shoots. Clicking on an activity provides detailed information about the services offered.
 
+![4](https://github.com/user-attachments/assets/dcece2f5-68be-44bc-b8b9-0083e5675e21)
+
+![5](https://github.com/user-attachments/assets/ceace41d-bb5b-42ba-bd7a-513ed789620e)
+
+
+
 Booking:
 -----
 If users are interested in a package or activity, they can fill out a booking form at the bottom of the page.
 The booking component allows users to view, edit, and manage their bookings.
+
+![6](https://github.com/user-attachments/assets/8b6d46c2-9346-4058-a02e-2693c7f08cfe)
+
+![7](https://github.com/user-attachments/assets/36bec770-83de-489c-b4a5-8b16a5da3435)
+
+
+![8](https://github.com/user-attachments/assets/b6c47dc7-4385-4117-8e79-52329e9563e7)
+
+![9](https://github.com/user-attachments/assets/42c84c95-06a0-4f0c-9d1e-4eccc2966513)
+
 
 Technology Stack:
 -----
