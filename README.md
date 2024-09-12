@@ -92,3 +92,66 @@ LOGIN
 
 
 INSERT INTO Login values(1,'ashwini@gmail.com',1234);
+
+TO RUN THE PROJECT COMMAND 
+-----
+>npm install -g typescript
+>npm install -g @angular/CLI
+>ng new ProjectName
+>cd>ProjectName
+> ng serve
+
+Run the Program 
+http//localhost/4300
+
+Information
+-----
+The Trip Organize Management System is designed to help users plan and manage their trips easily. It provides a user-friendly interface and includes key features such as Home, About, Feedback, Login, Logout, Booking, Places to Go, and Things to Do. Here’s an explanation of the project:
+
+KEY FEATURE
+-----
+
+Registration & Login:
+-----
+
+Users must first register by providing their email, password, and username. Proper validation is applied to ensure the accuracy of the data.
+After registration, users can log in. If someone tries to log in without registering, they will be prompted to register first.
+Once logged in, the home page welcomes the user by displaying "Welcome [username]" and adds a Logout button to the navigation bar.
+
+Home Page:
+-----
+
+The home page provides all the necessary information related to the system, with navigation options for various sections like "Places to Go" and "Things to Do."
+There is also a Contact page for users to get in touch, and a Feedback form to provide reviews or suggestions.
+
+Places to Go:
+-----
+Users can explore various travel packages under this section, such as Solo Trip and Business Trip.
+Clicking on any package displays a list of destinations, with detailed information about each location, including accommodation, food options, and more.
+Things to Do:
+
+This section displays activities like Birthday Parties and Maternity Shoots. Clicking on an activity provides detailed information about the services offered.
+
+Booking:
+-----
+If users are interested in a package or activity, they can fill out a booking form at the bottom of the page.
+The booking component allows users to view, edit, and manage their bookings.
+
+Technology Stack:
+-----
+
+Front-End:
+-----
+The front end is developed using Angular, a comprehensive framework that makes it easy to divide the system into various components for a structured design.
+
+Back-End:
+-----
+The back end is built using Spring Boot, which handles the logic and connects the front end with the database. CRUD operations (Create, Read, Update, Delete) are performed using REST APIs.
+
+Database:
+-----
+MySQL is used to store user information, booking details, travel packages, and activity data.
+
+Back-End Architecture are in another github link
+-----
+https://github.com/Ashwinighate123/Trip-Organise-Managment-System.git
